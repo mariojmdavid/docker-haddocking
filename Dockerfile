@@ -33,6 +33,7 @@ RUN pip install -U pip
 RUN pip install setuptools
 RUN pip install mako
 RUN pip install Cython
+RUN pip install matplotlib
 RUN pip install numpy
 RUN pip install scipy
 RUN pip install pyfftw
